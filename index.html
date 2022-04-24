@@ -23,6 +23,7 @@
 <body>
   <p>PARAGRAPH</p>
   <script>
+    document.body.innerHTML += "<p>Script</p>";
     document.body.innerHTML += JSON.stringify(window.Telegram.WebApp);
 window.Telegram.WebApp.ready();
 </script>
